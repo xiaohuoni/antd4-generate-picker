@@ -1,6 +1,6 @@
 import React from 'react';
-import { DatePicker, TimePicker, Calendar } from 'antd';
-import format from 'moment';
+import { DatePicker, TimePicker, Calendar } from './components';
+import format from 'dayjs';
 import './App.css';
 
 const { MonthPicker, RangePicker, WeekPicker } = DatePicker;
